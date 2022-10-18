@@ -21,10 +21,10 @@ class MainActivity : AppCompatActivity() {
 
         btnSubmit.setOnClickListener {
 //        val selectedRadio = rgroup.checkedRadioButtonId
-            if (r4.isChecked){
+            if (r2.isChecked){
                 points += 50
             }
-            if (c1.isChecked)
+            if (c3.isChecked)
                 points += 50
 
             val dialogBuilder = AlertDialog.Builder(this)
